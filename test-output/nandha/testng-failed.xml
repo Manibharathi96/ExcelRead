@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Nandha]">
+  <test thread-count="5" name="Praveen(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.excel.TestNg">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- org.excel.TestNg -->
+    </classes>
+  </test> <!-- Praveen(failed) -->
+</suite> <!-- Failed suite [Nandha] -->

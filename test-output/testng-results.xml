@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37843" started-at="2021-08-11T03:30:43Z" finished-at="2021-08-11T03:31:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37827" started-at="2021-08-11T03:30:43Z" finished-at="2021-08-11T03:31:20Z">
+      <class name="org.excel.OpenFb">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:org.excel.OpenFb@5e5792a0]" name="test" duration-ms="37797" started-at="2021-08-11T03:30:43Z" finished-at="2021-08-11T03:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.excel.OpenFb -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="37843" started-at="2021-08-11T03:30:43Z" finished-at="2021-08-11T03:31:20Z">
+      <class name="org.excel.OpenFb">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:org.excel.OpenFb@4dfa3a9d]" name="test" duration-ms="37816" started-at="2021-08-11T03:30:43Z" finished-at="2021-08-11T03:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.excel.OpenFb -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
